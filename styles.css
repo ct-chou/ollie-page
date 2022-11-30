@@ -81,3 +81,37 @@ body {
     box-shadow: none;
     border: none;   
 }
+
+.quote {
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.quote p {
+    margin:0;
+}
+
+.quote-text {
+    font-style:italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-weight:800;
+    text-align: right;
+    margin-left: auto;
+}
+
+.quote-bottom {
+    display: flex;
+}
+
+.quote div {
+    width: 75%;
+}
