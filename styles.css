@@ -50,9 +50,13 @@ body {
 
 
 .footer {
-    height: 30px;
+    height: 100px;
     flex: 0 0 auto;
     background-color: #1F2937;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-container {
@@ -146,3 +150,6 @@ body {
     /* border:#f9faf8;     */
 }  
 
+.footer{
+
+}
