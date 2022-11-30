@@ -99,7 +99,7 @@ body {
 
 .quote-text {
     font-style:italic;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .quote-author {
@@ -115,3 +115,34 @@ body {
 .quote div {
     width: 75%;
 }
+
+.call-to-action {
+    background-color:#3882f6;
+    margin: 80px 150px;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 3% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.call-to-action p {
+    margin: 0;
+}
+
+/* border-radius: 12px; */
+
+.call-to-action button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: #f9faf8;
+    border-color: #f9faf8;
+    border-style: solid;
+    /* border:#f9faf8;     */
+}  
+
