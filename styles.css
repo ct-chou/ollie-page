@@ -74,6 +74,19 @@ body {
 
 .hero-left {
     padding: 25px;
+    width: 50%;
+}
+.hero-right{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right img {
+    max-height: 300px;
+    width: auto;
+    padding: 100px;
 }
 
 .hero-button {
